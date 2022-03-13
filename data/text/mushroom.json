@@ -1,0 +1,27 @@
+{
+    "common_name": "",
+    "scientific_name": "",
+    "original_scientific_name": "",
+    "scientific_classification": {
+        "genus": "",
+        "family": "",
+        "order": "",
+        "class": "",
+        "phylum": ""
+    },
+    "distribution": "",
+    "edibility": "",
+    "toxicity": "",
+    "identification": {
+        "cap": "",
+        "gills": "",
+        "stem": "",
+        "odour/taste": "",
+        "habitat_&_Ecological_role": "",
+        "season": "",
+        "similar_species": "",
+        "similar_species_about": "",
+        "culinary_notes": "",
+        "occurrence": ""
+    }
+}
