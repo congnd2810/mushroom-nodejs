@@ -13,14 +13,14 @@ const fs = require('fs');
 
         $('div.clearfix > div.img > div.desc > a > i').each((index, element) => {
             speciesText = $(element).text().replace(/ /g, '').toLowerCase().split('\n');
-            speciesText = speciesText.join('-')
-            species.push(speciesText);
+            // speciesText = speciesText.join('-')
+            // species.push(speciesText);
         });
-        for (s of species) {
-            if (s.split('-').length <= 2) {
-                fs.appendFileSync('./species.txt', 'https://www.first-nature.com/fungi/'+s+'.php'+'\n');
-            }
-        }
+        // for (s of species) {
+        //     if (s.split('-').length <= 2) {
+        //         fs.appendFileSync('./species.txt', 'https://www.first-nature.com/fungi/'+s+'.php'+'\n');
+        //     }
+        // }
         // fs.appendFileSync('./species.txt', newSpe.join('\n'));
     }
 })()

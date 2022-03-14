@@ -14,18 +14,19 @@ const fs = require('fs');
     let filePaths = [] 
     let speciesNames = []
     fs.readdirSync('./data/speciesDom/').forEach(file =>{
-        filePaths.push('./data/Dom/'+file);
+        filePaths.push('./data/speciesDom/'+file);
         speciesNames.push(file.substring(0, file.length-5));
     });
     for (i in filePaths) {
-        let $ = hd.loadDom(filePaths[i]);
-        $('div.clearfix > div.img > div.desc > a > i').each((index, element) => {
-            speciesText = $(element).text().replace(/ /g, '').toLowerCase().split('\n');
-            
-        });
+        let $ = await hd.loadDom(filePaths[i]);
+        scientific = $('h1').first().text();
+        scientific_name = scientific.split(' ').splice(0, 2).join(' ');
+        common_name = scientific.split('-')[1].trim();
+        console.log(scientific_name);
+        // $('h1').each((index, element) => {
+        //     // speciesText = $(element).text().replace(/ /g, '').toLowerCase().split('\n');
+        //     sciname = console.log($(element).text())
+        // });
         break;
     }
 })()
-// let data = {'hic': {}}
-// data['hic']['as'] = '1';
-// console.log(data);
