@@ -1,27 +1,27 @@
 {
-    "common_name": "",
-    "scientific_name": "",
-    "original_scientific_name": "",
-    "scientific_classification": {
-        "genus": "",
-        "family": "",
-        "order": "",
-        "class": "",
-        "phylum": ""
+    "Common name": "",
+    "Scientific name": "",
+    "Scientific classification": {
+        "Genus": "",
+        "Family": "",
+        "Order": "",
+        "Class": "",
+        "Phylum": ""
     },
-    "distribution": "",
-    "edibility": "",
-    "toxicity": "",
-    "identification": {
-        "cap": "",
-        "gills": "",
-        "stem": "",
-        "odour/taste": "",
-        "habitat_&_Ecological_role": "",
-        "season": "",
-        "similar_species": "",
-        "similar_species_about": "",
-        "culinary_notes": "",
-        "occurrence": ""
+    "Description": "",
+    "Distribution": "",
+    "Edibility": "",
+    "Toxicity": "",
+    "Identification": {
+        "Cap": "",
+        "Fruitbody": "",
+        "Gills": "",
+        "Stem": "",
+        "Odour/taste": "",
+        "Habitat & Ecological role": "",
+        "Season": "",
+        "Similar Species": "",
+        "Similar Species about": "",
+        "Culinary Notes": ""
     }
 }
