@@ -44,7 +44,7 @@ async function loadDom(path) {
 //     //     await fetchDom(fungiUrl, family, 3);
 //     // }
 //     const $ = await loadDom('./data/dom/agaricaceae.html');
-//     console.log($('h2').text());
+//     console.log($('h2').json());
 // })()
 
 module.exports = {

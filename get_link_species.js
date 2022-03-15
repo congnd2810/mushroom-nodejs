@@ -28,3 +28,5 @@ const fs = require('fs');
 // https://www.first-nature.com/fungi/agaricus-augustus.php
 // body > div.container > div.clearfix > div.img > div.desc > a > i
 // body > div.container > div.clearfix > div:nth-child(2) > div > a > i
+
+
