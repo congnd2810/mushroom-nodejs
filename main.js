@@ -78,7 +78,7 @@ const fs = require('fs');
                             for (let k = 0; k < h3Tag.length; k++) {
                                 let h3Name = $(h3Tag[k]).text().trim();
                                 let h3Data = $(h3Tag[k]).find('~').first().text().trim();
-                                mushroomObj[h3Name] = h3Data;
+                                mushroomObj['Identification'][h3Name] = h3Data;
                             }
                         }
                     }
